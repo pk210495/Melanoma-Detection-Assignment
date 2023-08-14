@@ -1,3 +1,10 @@
+Team:
+
+Sonal Singh
+Joel JoJo
+Prem Kumar
+
+
 # Melanoma Skin Cancer Detection
 
 ## Abstract
