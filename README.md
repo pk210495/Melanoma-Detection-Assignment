@@ -16,11 +16,12 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-![3](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/3.png)
+![1](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/3.png)
 
 The Class Distribution
 
-![1](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/1.png)
+![4](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/1.png)
+![5](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/1.png)
 
 To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
@@ -43,11 +44,16 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 ### Model Evaluation
 Before Augmentation:
 
+![5](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/2.png)
+
 ![2](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/2.png)
 
 After Augmentation:
 
-![4](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/4.png)
+![6](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/4.png)
 
 
-Final Model Accuracy : 84.5% 
+Final Model Observation : With training accuracy of 95 percent at 30 iterations and validation accuracy of 82 percent, the results with dataset augmentation significantly outperformed those from earlier models. It is advised to rerun the training with a lowering learning rate in light of the significant variations in the validation loss.
+
+![7](https://github.com/pk210495/Melanoma-Detection-Assignment/edit/main/4.png)
+
